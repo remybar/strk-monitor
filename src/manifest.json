@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "manifest_version": 3,
   "description": "Monitor the Starknet token price (STRK) in real-time.",
-  "homepage_url": "https://github.com/remybar/XXX",
+  "homepage_url": "https://github.com/remybar/strk-monitor",
   "permissions": ["alarms", "storage"],
   "icons": {
     "128": "icons/icon-128.png"

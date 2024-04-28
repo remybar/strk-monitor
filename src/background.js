@@ -33,7 +33,7 @@ chrome.storage.onChanged.addListener(async (changes, areaName) => {
       chrome.action.setBadgeBackgroundColor({ color: "#6e0000" });
     } else {
       chrome.action.setBadgeText({
-        text: changes.strk_price.newValue,
+        text: formatPrice(changes.strk_price.newValue),
       });
       chrome.action.setBadgeBackgroundColor({ color: "#080050" });
     }

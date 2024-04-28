@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #041759;
+}
+
+#popup {
+  width: 100px;
+  padding: 4px 0;
+  font-size: 14px;
+  background: #041759;
+  color: #dbdbdb;
+  text-align: center;
+}
