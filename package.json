@@ -1,0 +1,12 @@
+{
+  "name": "token_monitor",
+  "scripts": {
+    "zip": "cd src && rm -f ../dist/dist.zip && mkdir -p ../dist && zip ../dist/dist.zip * -r"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Rémy Baranx <remy.baranx@proton.me>",
+  "license": "ISC"
+}
